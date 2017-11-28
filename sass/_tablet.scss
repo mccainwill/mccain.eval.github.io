@@ -1,0 +1,244 @@
+@media all and (min-width:800px){
+/* General Styles */
+
+
+/* Top Splash Banner */
+
+	.banner{
+		height: 400px;
+
+		.logo{
+			margin: 1rem 0 0 3rem;
+
+		}
+
+		h1{
+			font-size: 3em;
+			padding: 0;
+			width: 70%;
+		}
+	}
+
+	.blue-back{
+		background: url('../images/png/cardinal-blue-bg.png');
+	}
+
+/* Specialties Section */
+
+	.specialties{
+		display: flex;
+
+		.card{
+			flex: 1;
+		}
+	}
+
+/* Clients Section */
+
+	.clients{
+		display: flex;
+		flex-flow: row wrap;
+		padding: 4%;
+
+		.client-card{
+			margin: 1%;
+			height: 150px;
+			display: flex;
+			box-sizing: border-box;
+		}
+
+		.our-clients{
+			flex: 2;
+			flex-direction: column;
+			flex-basis: 44%;
+			padding: 30px 40px;
+			// max-width: 44%;
+			text-align: left;
+			box-shadow: none;
+
+			h2{
+				font-size: 1em;
+				margin: 0 0 10px 0;
+				flex: 1;
+			}
+
+			p{
+				font-size: 0.8em;
+				margin: 0;
+				flex: 1;
+				align-self: end;
+			}
+		}
+
+		.card-pic{
+			flex: 1;
+			flex-basis: 21%;
+			flex-wrap: wrap;
+			height: auto;
+			// align-self: center;
+
+			.client-pic{
+				align-self: center;
+			}
+		}
+	}
+
+/** Projects **/
+
+	.project{
+		display: flex;
+	
+		.project-button{
+			width: 150px;
+			font-size: 1em;
+			padding: 20px;
+		}
+	}
+
+/* Purell Section */
+
+	.purell-splash{
+		background: $purell-grey url('../images/png/pic-gojo-bg.png') no-repeat center;
+
+		.purell-back{
+			flex: 1;
+			flex-basis: 50%;
+			background: none;
+			// box-sizing: border-box;
+		}
+
+		.purell-pic{
+			// flex: 1;
+			// flex-basis: 50%;
+		}
+
+		.purell-writeup{
+			background: none;
+			flex: 1;
+			flex-basis: 50%;
+			display: flex;
+			flex-direction: column;
+			box-sizing: border-box;
+			margin: auto 0;
+
+			h2{
+
+			}
+
+			p{
+
+			}
+		}
+	}
+
+/* Fifth Third Bank Project */
+
+	.fifththird-splash{
+		padding: 0;
+		background-size: auto;
+		flex-direction: row-reverse;
+	
+		.fifththird-pic{
+			flex: 1;
+			flex-basis: 50%;
+			position: relative;
+			top: 2em;
+		}
+
+		.fifththird-writeup{
+			flex: 1;
+			flex-basis: 50%;
+			display: flex;
+			flex-direction: column;
+			box-sizing: border-box;
+			margin: auto 0;
+			text-align: left;
+		}
+	}
+
+/* Christ Hospital Health Network Project */
+
+	.chhn-splash{
+		padding: 0;
+
+		.chhn-back{
+			position: relative;
+			min-height: 500px;
+			flex: 1;
+			flex-basis: 50%;
+		}
+	
+		.chhn-pic{
+			position: absolute;
+			left: auto;
+			right: 0;
+			flex: 1;
+			flex-basis: 50%;
+		}
+
+		.chhn-writeup{
+			flex: 1;
+			flex-basis: 50%;
+			display: flex;
+			flex-direction: column;
+			box-sizing: border-box;
+			margin: auto 0;
+		}
+	}
+
+/* Contact Us Section */
+
+	.contact-us{
+		padding: 3em;
+		display: flex;
+		text-align: center;
+	
+		.contact-form{
+			flex: 1;
+			flex-basis: 60%;
+			margin: auto 0;
+
+			h2{
+				text-align: center;
+			}
+
+			p{
+				text-align: center;
+			}
+
+			.input, .message{
+			}
+		}
+
+		hr{
+			width: 1px;
+			height: auto;
+			margin: 10px;
+		}
+
+		.contact-info{
+			flex: 1;
+			flex-basis: 40%;
+			text-align: center;
+		}
+	}
+
+/* Copyright */
+
+	.copyright{
+		display: flex;
+	
+		p{
+			flex: 1;
+			text-align: left;
+			line-height: 50px;
+			align-self: center;
+		}
+
+		.social-media{
+			flex: 1;
+			text-align: right;
+			padding: 0;
+		}
+	}
+}

@@ -1,0 +1,215 @@
+@media all screen and (max-width: 760px){
+
+/* Top banner */
+
+	.banner{
+
+		
+		.logo{
+			margin: 0 auto;
+			padding: 2rem 0;
+		}
+
+		h1{
+			font-family: Effra;
+			line-height: 2em;
+			width: 80%;
+			padding: 3rem 0;
+			margin: 0 auto;
+		}
+
+		.blue-back{
+			background: $cardinal-blue;
+			background-image: none;
+		}
+
+	}
+
+	.blue-back{
+		background: $cardinal-blue;
+	}
+
+/* Specialties Cards */
+
+	.specialties{
+		padding: 2em 3em;
+		padding-bottom: 2rem;
+
+		.card{
+			padding: 20px 0;
+
+			h2{
+				margin: 0.7em 0;
+			}
+		}
+	}
+
+	.clients{
+		margin-top: -2rem;
+
+		.clients-background{
+			// background: linear-gradient(to bottom, $light-grey 50%, $white 50%);
+		}
+
+		.client-card{
+			margin: 1.5rem 2rem;		
+		}
+
+		.our-clients{
+			padding: 2em;
+			// margin: 0 2em;
+			text-align: center;
+			box-shadow: 0 0 1.5rem 1.5rem rgba(100, 100, 100, .12);
+		}
+
+		.card-pic{
+			height: 120px;
+			padding: 1rem 0;
+			max-height: 150px;
+			// display: flex;
+			// justify-content: center;
+			// align-items: center;
+			box-sizing: border-box;
+
+			.client-pic{
+				flex-shrink: 0;
+				display: block;
+				margin: 0 auto;
+				padding: 5px 0;
+			}
+		}
+	}
+
+/** Project Sections **/
+
+	.project{
+		position: relative;
+
+		h2{
+			margin: 0;
+			font-family: Effra Bold;
+			font-size: 2em;
+		}
+
+		h3{
+			margin-top: 5px;
+			font-family: Effra Medium;
+			font-size: 1em;
+		}
+
+		p{
+			font-size: 1.1em;
+			line-height: 1.7em;
+			margin: 25px 0;
+		}
+
+		.project-button{
+			font-family: Effra Bold;
+			font-size: 1.2em;
+			border: 0;
+			border-radius: 5px;
+			padding: 20px 30px;
+		}
+	}
+
+/* Purell Project Banner */
+
+	.purell-splash{
+		// background: $purell-grey url('../images/png/pic-gojo-bg.png') no-repeat center;
+		// display: flex;
+		// justify-content: center;
+		// align-items: center;
+		// padding: 1.5rem 1.5rem 0 1.5rem;
+
+		.purell-back{
+			padding: 1.5rem 1.5rem 0 1.5rem;
+			background: $purell-grey url('../images/png/pic-gojo-bg.png') no-repeat center;
+			// width: 100%;
+		}
+
+		.purell-pic{
+			width: 100%;
+			flex-shrink: 0;
+		}
+
+		.purell-writeup{
+			background: $purell-grey;
+			padding: 2.5em;
+		}
+	}
+
+/* Fifth Third Project Banner */
+
+	.fifththird-splash{
+		padding: 4rem 1.5rem 0 1.5rem;
+		background: $fifththird-blue url('../images/png/pic-fifththird-bg.png') no-repeat center;
+		background-size: 200% 100%;
+	
+		.fifththird-pic{
+			width: 100%;
+		}
+
+		.fifththird-writeup{
+			color: $white;
+			padding: 2.5em;
+			text-align: center;
+		}
+	}
+
+/* Christ Hospital Health Network Project Banner */
+
+	.chhn-splash{
+		padding: 4rem 0 0 0;
+		background: url('../images/png/pic-chhn-bg-2.png') no-repeat center;
+		background-size: cover;
+		overflow: hidden;
+	
+		.chhn-pic{
+			position: relative;
+			left: 3em;
+		}
+
+		.chhn-writeup{
+			color: $white;
+			padding: 2.5em;
+		}
+	}
+
+/* Contact Us Section */
+
+	.contact-us{
+		margin: 0 auto;
+		text-align: center;
+		padding: 1rem 1rem 0 1rem;
+	
+		.contact-form{
+
+			h2{
+				margin:0;
+			}
+
+			.input, .message{
+				margin: 1rem auto;
+				width: 80%;
+				font-size: 1em;
+				padding: 1em;
+			}
+
+			.submit{
+				font-size: 1em;
+				padding: 1em 2em;
+			}
+		}
+	}
+
+	.copyright{
+		padding: 2rem;
+		font-size: 1.2em;
+		margin: 0 auto;
+		text-align: center;
+
+		p{
+			margin: 0;
+		}
+	}
+}
